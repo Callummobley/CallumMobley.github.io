@@ -1,7 +1,6 @@
 /* General Styles */
 body {
-    margin: 0;
-    background: rgb(65, 65, 122);
+    margin: 0
 }
 
 /* Nav Styles */
@@ -38,7 +37,7 @@ footer a:hover {}
 }
 
 .splash h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
     font-size: 2em;
     color: #e9c46a;
 }
@@ -67,14 +66,14 @@ section {}
 /* Section Headings */
 section h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #e9c46a;
-    background: rgb(65, 65, 122);
+    color:darkblue
 }
 
 .education {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.1em;
-    color: beige;
+    color: black;
+
 }
 
 /* Paragraph Styles */
@@ -94,7 +93,6 @@ section a:hover {
 /* List Styles */
 ul {
     list-style-type: square;
-    color: beige;
 }
 
 dl {
@@ -103,13 +101,9 @@ dl {
     gap: 6px;
 }
 
-dl dt{
-    color: beige;
-}
+dl dt{}
 
-dl dd{
-    color: beige;
-}
+dl dd{}
 
 /* Project Section */
 .three-col {
