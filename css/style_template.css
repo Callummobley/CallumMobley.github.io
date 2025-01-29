@@ -1,6 +1,7 @@
 /* General Styles */
 body {
-    margin: 0
+    margin: 0;
+    background: rgb(65, 65, 122);
 }
 
 /* Nav Styles */
@@ -66,14 +67,14 @@ section {}
 /* Section Headings */
 section h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:darkblue
+    color: #e9c46a;
+    background: rgb(65, 65, 122);
 }
 
 .education {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.1em;
-    color: black;
-
+    color: beige;
 }
 
 /* Paragraph Styles */
@@ -93,6 +94,7 @@ section a:hover {
 /* List Styles */
 ul {
     list-style-type: square;
+    color: beige;
 }
 
 dl {
@@ -101,9 +103,13 @@ dl {
     gap: 6px;
 }
 
-dl dt{}
+dl dt{
+    color: beige;
+}
 
-dl dd{}
+dl dd{
+    color: beige;
+}
 
 /* Project Section */
 .three-col {
